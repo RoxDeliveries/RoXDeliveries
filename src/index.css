@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.category-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: lightgreen;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.cart-item {
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

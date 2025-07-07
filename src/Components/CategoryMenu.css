@@ -1,0 +1,27 @@
+/* src/components/CategoryMenu.css */
+.category-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1000;
+  }
+  
+  .category-menu a {
+    background: #fff;
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.1s;
+  }
+  
+  .category-menu a:hover {
+    transform: scale(1.05);
+  }
+  

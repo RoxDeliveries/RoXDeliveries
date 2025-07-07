@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+<<<<<<< HEAD
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+=======
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+>>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+<<<<<<< HEAD
+  "include": ["src"]
+=======
+  "include": [
+    "src"
+  ],
+  "extends": "expo/tsconfig.base"
+>>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+}
