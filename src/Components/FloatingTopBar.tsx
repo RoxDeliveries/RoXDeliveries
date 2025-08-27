@@ -50,20 +50,19 @@ const FloatingTopBar: React.FC = () => {
 
   return (
     <div className="top-bar">
-<<<<<<< HEAD
+
       <div className="top-row">
         <CategoryMenuButton />
         <CartButton />
       </div>
 
       <div className="search-row">
-=======
+
       <div className="top-bar-left">
         <CategoryMenuButton />
       </div>
 
       <div className="search-area">
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
         <button 
           className="home-btn" 
           onClick={() => navigate('/')}
@@ -71,24 +70,16 @@ const FloatingTopBar: React.FC = () => {
         >
           🏠
         </button>
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
         <div className="search-container">
           <input
             className="search-input"
             placeholder="Search items..."
             value={search}
             onChange={(e) => handleChange(e.target.value)}
-<<<<<<< HEAD
             onFocus={() => !search && setShowHistory(true)}
-=======
             onFocus={() => {
               if (!search) setShowHistory(true);
             }}
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
             onBlur={() => setTimeout(() => setShowHistory(false), 200)}
             onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
           />
@@ -132,19 +123,10 @@ const FloatingTopBar: React.FC = () => {
           )}
         </div>
       </div>
-<<<<<<< HEAD
-=======
-
       <div className="top-bar-right">
         <CartButton />
       </div>
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
     </div>
   );
 };
-
-<<<<<<< HEAD
 export default FloatingTopBar;
-=======
-export default FloatingTopBar;
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
