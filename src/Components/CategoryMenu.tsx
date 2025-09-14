@@ -60,7 +60,7 @@ const styles = {
     boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
     width: '200px',
     maxHeight: '80vh', // Prevents overflowing screen
-    overflowY: 'auto', // Scroll inside menu only if too many items
+    overflowY: "scroll" as const, // Scroll inside menu only if too many items
     zIndex: 1001,
   },
   item: {
