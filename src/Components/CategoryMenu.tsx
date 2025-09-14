@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-<<<<<<< HEAD
-=======
-import { CSSProperties } from 'react';
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+import { useNavigate } from 'react-router-dom';  
+import { CSSProperties } from 'react';  
 
 const categories = [
   'Fresh Fruits', 'Fresh Vegetables', 'Dairy Items',
@@ -37,12 +34,10 @@ const CategoryMenuButton: React.FC = () => {
     </div>
   );
 };
-
-<<<<<<< HEAD
+ 
 const styles = {
   wrapper: {
-    position: 'fixed' as 'fixed',
-=======
+    position: 'fixed' as 'fixed', 
 const styles: {
   wrapper: CSSProperties;
   button: CSSProperties;
@@ -50,8 +45,7 @@ const styles: {
   item: CSSProperties;
 } = {
   wrapper: {
-    position: 'fixed',
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+    position: 'fixed',  
     top: 10,
     left: 10,
     zIndex: 1000,
@@ -65,8 +59,7 @@ const styles: {
     borderRadius: '6px',
     cursor: 'pointer',
   },
-  menu: {
-<<<<<<< HEAD
+  menu: { 
     position: 'fixed' as 'fixed', // 💡 this is key
     top: 60, // appear below button
     left: 10,
@@ -78,8 +71,7 @@ const styles: {
     maxHeight: '80vh', // Prevents overflowing screen
     overflowY: 'auto', // Scroll inside menu only if too many items
     zIndex: 1001,
-  },
-=======
+  }, 
   position: 'fixed' as 'fixed',
   top: 60,
   left: '5%',
@@ -93,18 +85,14 @@ const styles: {
   overflowY: 'auto',
   zIndex: 1001,
 },
-
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+  
   item: {
     padding: '10px',
     borderBottom: '1px solid #eee',
     cursor: 'pointer',
-    fontSize: '14px',
-<<<<<<< HEAD
-  }
-=======
-  },
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+    fontSize: '14px', 
+  } 
+  },  
 };
 
 export default CategoryMenuButton;

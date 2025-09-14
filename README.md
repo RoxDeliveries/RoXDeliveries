@@ -51,8 +51,5 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
-<<<<<<< HEAD
-=======
-"# RoXDeliveriesGitRepo" 
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+```  
+"# RoXDeliveriesGitRepo"   

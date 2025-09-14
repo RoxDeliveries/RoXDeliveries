@@ -52,12 +52,9 @@ const CheckoutPage: React.FC = () => {
     };
   }, [useCurrentLocation]);
 
-  const submitOrderToSheet = async (order: any) => {
-<<<<<<< HEAD
-    const endpoint = 'https://script.google.com/macros/s/AKfycbyeeXFf9J8wpdUIrMK24sRK4HxkefJCv7z6mgQQTy7AVCHqob4TnkNlPb0YQNDJ7mj0/exec';
-=======
-    const endpoint = 'https://script.google.com/macros/s/AKfycby8MF352H19yGoD1oXkLa3WhbSYGUtAPw3atXPB7D1ZHvTZT8gR8UPgT4M2lA2uyRed/exec';
->>>>>>> d47469a679691045e35e8ca76439b2e8ff25d564
+  const submitOrderToSheet = async (order: any) => { 
+    const endpoint = 'https://script.google.com/macros/s/AKfycbyeeXFf9J8wpdUIrMK24sRK4HxkefJCv7z6mgQQTy7AVCHqob4TnkNlPb0YQNDJ7mj0/exec'; 
+    const endpoint = 'https://script.google.com/macros/s/AKfycby8MF352H19yGoD1oXkLa3WhbSYGUtAPw3atXPB7D1ZHvTZT8gR8UPgT4M2lA2uyRed/exec';  
     try {
       const res = await fetch(endpoint, {
         method: 'POST',
