@@ -50,14 +50,6 @@ const FloatingTopBar: React.FC = () => {
 
   return (
     <div className="top-bar">
-
-      <div className="top-row">
-        <CategoryMenuButton />
-        <CartButton />
-      </div>
-
-      <div className="search-row">
-
       <div className="top-bar-left">
         <CategoryMenuButton />
       </div>
@@ -70,13 +62,13 @@ const FloatingTopBar: React.FC = () => {
         >
           🏠
         </button>
+        
         <div className="search-container">
           <input
             className="search-input"
             placeholder="Search items..."
             value={search}
             onChange={(e) => handleChange(e.target.value)}
-            onFocus={() => !search && setShowHistory(true)}
             onFocus={() => {
               if (!search) setShowHistory(true);
             }}
@@ -123,10 +115,12 @@ const FloatingTopBar: React.FC = () => {
           )}
         </div>
       </div>
+
       <div className="top-bar-right">
         <CartButton />
       </div>
     </div>
   );
 };
+
 export default FloatingTopBar;
